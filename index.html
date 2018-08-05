@@ -1,0 +1,79 @@
+---
+layout: default
+title: posts
+permalink: index.html
+---
+
+<div class="home">
+
+
+  <script>
+    var lastShown = '';
+    
+    //gets list of post li's
+    function getPostListItems() {
+      return document.getElementsByClassName('post-li');
+    }
+    
+    //tells user which posts are being hidden
+    function updateStatus(category) { 
+      var text = '(showing all)';
+      if (category != '') {
+        text = '(hiding all posts not in \'' + category + '\')';
+      }
+      document.getElementById('category-status').innerText = text;
+    }
+  
+    //hides all posts not belonging to category
+    function hideAllBut(category) {
+      var posts = getPostListItems();
+      if (category == lastShown) {
+        showAll();
+        return;
+      }
+      showAll();
+      for (var postIndex = 0; postIndex < posts.length; postIndex++) {
+        if (getPostListItems()[postIndex].children[1].innerText != category) {
+          posts[postIndex].hidden = true;
+        }
+      }
+      lastShown = category;
+      updateStatus(lastShown);
+    }
+    
+    //shows all posts
+    function showAll() {
+      lastShown = "";
+      var posts = getPostListItems();
+      for (var postIndex = 0; postIndex < posts.length; postIndex++) {
+        posts[postIndex].hidden = false;
+      }
+      updateStatus(lastShown);
+    }
+  </script>
+
+
+  <div id="categories">
+    <div>Show posts by category <span id="category-status">(showing all)</span>:</div>
+    <span><a href="#all" onClick="showAll()">show all</a> </span>
+    {% for category in site.categories %}
+      <span class="category-group">
+        {% capture cat %}{{ category | first }}{% endcapture %}
+         {% raw %}/{% endraw %} <a href="#{{ cat }}" onClick="hideAllBut('{{ cat }}')">{{ cat }}</a> 
+      </span>
+    {% endfor %}
+  </div>
+
+  <ul>
+    {% for post in site.posts %}
+      <li class="post-li">
+        {{ post.date | date: "%b %-d, %Y" }} {% raw %}/{% endraw %}
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="category" >{{ post.category }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+</div>

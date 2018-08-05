@@ -1,0 +1,15 @@
+# Site settings
+title: matt gray
+email: matt@mattgray.net
+description: > # this means to ignore newlines until "baseurl:"
+  Internet residence of Matt Gray. Clarifying for ambiguity, this
+  Matt Gray develops software, trains for gymnastics, and is a lover
+  of music.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mattgray.net" # the base hostname & protocol for your site
+twitter_username: grysvn
+github_username:  grysvn
+
+# Build settings
+markdown: rdiscount
+strict_front_matter: true
