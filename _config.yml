@@ -11,5 +11,4 @@ twitter_username: grysvn
 github_username:  grysvn
 
 # Build settings
-markdown: rdiscount
 strict_front_matter: true
