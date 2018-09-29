@@ -3,9 +3,14 @@
 	{% include head.html %}
 	<body>
 		<div id="body" class="row">
+			<!-- BODY -->
+
 			<div id="content" class="col s9">
 				{{ content }}
 			</div>
+
+			<!-- NAVBAR -->
+
 			<div id="navbar" class="col s3">
 				<a href="{{ site.url }}"><img class="headimg" src={{ "/img/head.png" | prepend: site.baseurl }} /></u>
 				<!-- margin left to account for ULs having a 20px margin in general -->
