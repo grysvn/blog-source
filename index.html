@@ -1,79 +1,32 @@
 ---
 layout: default
-title: posts
+title: home
 permalink: index.html
 ---
 
 <div class="home">
-
-
-  <script>
-    var lastShown = '';
-    
-    //gets list of post li's
-    function getPostListItems() {
-      return document.getElementsByClassName('post-li');
-    }
-    
-    //tells user which posts are being hidden
-    function updateStatus(category) { 
-      var text = '(showing all)';
-      if (category != '') {
-        text = '(hiding all posts not in \'' + category + '\')';
-      }
-      document.getElementById('category-status').innerText = text;
-    }
-  
-    //hides all posts not belonging to category
-    function hideAllBut(category) {
-      var posts = getPostListItems();
-      if (category == lastShown) {
-        showAll();
-        return;
-      }
-      showAll();
-      for (var postIndex = 0; postIndex < posts.length; postIndex++) {
-        if (getPostListItems()[postIndex].children[1].innerText != category) {
-          posts[postIndex].hidden = true;
-        }
-      }
-      lastShown = category;
-      updateStatus(lastShown);
-    }
-    
-    //shows all posts
-    function showAll() {
-      lastShown = "";
-      var posts = getPostListItems();
-      for (var postIndex = 0; postIndex < posts.length; postIndex++) {
-        posts[postIndex].hidden = false;
-      }
-      updateStatus(lastShown);
-    }
-  </script>
-
-
-  <div id="categories">
-    <div>Show posts by category <span id="category-status">(showing all)</span>:</div>
-    <span><a href="#all" onClick="showAll()">show all</a> </span>
-    {% for category in site.categories %}
-      <span class="category-group">
-        {% capture cat %}{{ category | first }}{% endcapture %}
-         {% raw %}/{% endraw %} <a href="#{{ cat }}" onClick="hideAllBut('{{ cat }}')">{{ cat }}</a> 
-      </span>
-    {% endfor %}
-  </div>
+  <!-- Intro paragraph -->
+  <p>
+    I'm Matt Gray, a software developer (NCSU CSC '19) that focuses on iOS application development. I'm also very interested in physical training, specifically: gymnastics strength, powerlifting, flexibility, and handbalancing. To find a common theme, I like exploring how far one can take a discipline - mental or physical. Lastly, who doesn't love a good list, easily digestible and readable for the whole family, so here's one with some personal fun facts:
+    <ul>
+        <li>Software development: started in .NET and Windows land in 2009, Swift convert as of 2016.</li>
+        <li>Music: indie rock/folk, emo, metal, post-rock, rap, etc.</li>
+        <li>Podcasts: ATP, Reconcilable Differences, Cortex, Hello Internet, Under the Radar, etc.</li>
+        <li>Miscellaneous: TV series/podcasts/books, driving, video games.</li>
+    </ul>
+    Below are a few excerpts from the most recent posts I've written, if you would like to view a filterable list of all posts on this site (content is spread across all of the interest areas I mentioned above), view my <a href="/posts.html">posts</a> page.
+  </p>
 
   <ul>
-    {% for post in site.posts %}
-      <li class="post-li">
-        {{ post.date | date: "%b %-d, %Y" }} {% raw %}/{% endraw %}
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="category" >{{ post.category }}</span>
-      </li>
-    {% endfor %}
+  {% for post in site.posts limit:3 %}
+    <li class="post-list">
+      <p>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> • 
+        {{ post.date | date: "%b %-d, %Y" }} • 
+        <span class="category" >{{ post.category }}</span> •
+        {{ post.content | markdownify | strip_html | truncatewords: 50 }}
+      </p>
+    </li>
+  {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  
 </div>
