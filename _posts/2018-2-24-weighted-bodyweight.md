@@ -16,15 +16,15 @@ Update February 27th, 2018:
 * Rest should be what you need, I think a good start is 90s between sets of dips and chins (or other strength pairs). Take more if necessary.
 * Back-off sets are something you should figure out to be appropriate over time. If you want an objective measurement, `((added weight + bodyweight) * .9) - bodyweight` can work, but it may not be perfect (or even work with very light amounts of weight added). I recommend back-off sets because I think working up to a top (**top does not equate to failure**) set in the range you're working in that day and then backing-off is a good way to regulate how hard you're pushing yourself. You could just do sets across, but similar to the point on the split itself, these are my recommendations.
 
-# Introduction
+## Introduction
 
-## Goals
+### Goals
 
 This post **is not about building up bodyweight reps of pull-ups and dips**. There are a lot of resources on that topic that are different and people find their way through that easily enough over time (some longer than others). I'm trying to put into words my own method for auto-regulation and progression of weighted pull-ups and dips.
 
 There are a lot of various protocols out there for starting to add weight. Some of them are good, some of them aren't. Most work, but a lot are inefficient. In three years of bodyweight training, about 2 of which are with this method (after building up just bodyweight reps), I went from no dips or chin-ups (starting from 4 years ago), to a +160lb chin-up and +180lb dip at 200lbs bodyweight (currently maintaining at +135lbs for 4 on dips and for 2 on chin-ups).
 
-## Miscellaneous Notes
+### Miscellaneous Notes
 
 I don't say which exercise to do in the templates, **you should be doing dips and chins paired together.** That means: do a set of chins or dips, rest about 90s, and do the other exercise.
 
@@ -38,7 +38,7 @@ I usually only perform pull-ups (pronated) for bodyweight reps. That's my opinio
 
 Lastly, training weighted chins and dips is rough. Take care of yourself, eat quality food, sleep well, stay hydrated, and if your joints feel funky, back-off the intensity a bit. You want to be in this for the long-run, not a short sprint.
 
-## Prerequisites?
+### Prerequisites?
 
 First, you should be uninjured and physically able to train. Second, I'm not a certified trainer or anything like that, 
 
@@ -55,7 +55,7 @@ Once these are completed (lower end is what I would say is a minimum, higher end
 
 If you think there are other form guidelines to adhere to, feel free to comment them below or follow them yourself.
 
-# Programming
+## Programming
 
 Again, these are programming *suggestions* I have found to work well. I'll break it up into three stages (beginner/intermediate/advanced) for progression because athletes at different stages progress at different rates.
 
@@ -63,7 +63,7 @@ One large factor in regards to where you start with progression is your bodyweig
 
 If you're on the opposite side of the spectrum and struggle to progress upper body strength, then you may not be able to start in the beginner stage because progressing that fast is just not something you're able to do. Don't sweat it! Everyone is different, take what you can do and own it :).
 
-## Beginner
+### Beginner
 
 If you're new to weighting your chins/dips, you have taken a break from training them for a while, or you have a decent base and can recover adequately, then you may respond well to linear progression. Having a larger base of bodyweight reps will help a lot. Training 2-3x a week at this stage is good, 3x a week is the best (from personal experience with myself and others).
 
@@ -86,7 +86,7 @@ This type of progression can last anywhere from not at all to a couple of months
 
 I think I progressed from 20 bodyweight chin reps to +70lbs for 3x5 in about 3-4 months. As I said above, I started from a good position, so YMMV.
 
-## Intermediate
+### Intermediate
 
 When you get to an intermediate stage (usually after a few months to a year of steady training, including starting from just bodyweight without weight) and you can't recover to linearly progress with a beginner routine, then, what do you know, it's time for an intermediate routine. This routine is made for intermediates by adding a form of **periodization** where the trainee alternates between a light day and heavy day. If you're unfamiliar with it, give it a google. Learning more is always helpful.
 
@@ -109,7 +109,7 @@ As said above, I prefer to do periodize for the intermediate stage by alternatin
 * If you can't progress reps or weight from one light or one heavy session to the next session of the same, then try and match the same reps as last session and add one back-off set with the same reps (maybe two if you can't match reps) and also considering deloading if you feel really gassed.
 * If you can't progress for a week, then take a deload week. This is usually between every 4 and every 6 weeks depending on one's recovery capacity. Only consider switching to an advanced template if the progression doesn't feel sustainable for two to three cycles in a row. The intermediate stage lasts longer than beginner.
 
-## Advanced
+### Advanced
 
 The advanced stage, depending on how fast you progress, is usually reached after a few years of steady training, maybe sooner or later depending on the person. At this point you're lifting some heavy weights and you'll usually need to do a lot more work to get just a little bit further. At this point, you should have an idea about how you respond to training stimulus, so maybe the template I'm going to list will work for you, maybe it won't.
 
@@ -125,7 +125,7 @@ The key idea here is daily undulating periodization, which I wrote about a bit [
 * You should have an idea about how often you need to deload by this stage. When your progress starts stagnating it's definitely time for a deload and to keep an eye on your recovery methods.
 * At this stage, if you start stagnating across multiple mesocycles (multiple week blocks), consider switching up your programming style or even your goals for a while. Build up your horizontal pushing and pulling strength some more with planche and front lever. Work some accessories more to shore up your weak points. It's all about finding the missing piece to the puzzle at this point.
 
-## Deloading - a side note.
+### Deloading - a side note.
 
 I've tried multiple styles of deloads at different points in my training, here's some of them just for some ideas:
 
@@ -133,7 +133,7 @@ I've tried multiple styles of deloads at different points in my training, here's
 * If I'm feeling okay with my training, but I need to give my body a break, I'll just cut out my top sets for a week and potentially make my back-off/working sets lighter. This is just enough to keep yourself going through the motions, but giving your body a break from intensity.
 * If I'm feeling very physically drained, I'll go into the gym each day and just hit basic working sets at a very light intensity (3x10 controlled tempo on all of the basics) and drill a lot of mobility and assistance work with resistance bands to finish up. This works well, but it can be much different from usual training especially if you're advanced/intermediate, potentially getting you out of a groove. Sometimes though, this can be just what you need.
 
-# Conclusion
+## Conclusion
 
 This post is opinionated; these are training styles that I have worked through and seen others work through with good results. If you see ideas here that you want to take into your own training, feel free to. If you try this and see good results with it feel free to let me know. The same goes with results that are less than stellar. I'd love to hear feedback.
 
