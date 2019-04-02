@@ -6,7 +6,7 @@ category:  books
 tags:  books productivity
 ---
 
-I'm pretty jaded against a lot having to do with modern corporations, so reading [Getting Things Done](https://gettingthingsdone.com/) made me roll my eyes quite a few times, but damn, am I glad I read through this book. I genuinely think the ideas laid out by Allen, especially because of how clearly he worded them, will significantly change my life for the better by making thoughts about productivity that have flickered through my mind into concrete ideas. I'm not going to give an in-depth review or anything like that, but I will list some of the key take-aways that I found useful from the book. In order, I list the important concepts I gathered from the book that everyone could use (not everything obviously), more points I really enjoyed reading about, and also some ideas I had about my own productivity systems along the way.
+[Getting Things Done](https://gettingthingsdone.com/) made me roll my eyes quite a few times, but damn, am I glad I read through this book. I genuinely think the ideas laid out by Allen, especially because of how clearly he worded them, will significantly change my life for the better by making thoughts about productivity that have flickered through my mind into concrete ideas. I'm not going to give an in-depth review or anything like that, but I will list some of the key take-aways that I found useful from the book. In order, I list the important concepts I gathered from the book that everyone could use (not everything obviously), more points I really enjoyed reading about, and also some ideas I had about my own productivity systems along the way.
 
 In short, this post can't convey how helpful this book is. I highly recommend it to anyone interested in working better.
 
