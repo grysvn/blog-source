@@ -5,23 +5,20 @@ permalink: index.html
 ---
 
 <header class="post-header">
-  <h1 class="post-title">Home</h1>
-  <p class="post-meta">Matt Gray's little cozy corner of the internet.</p>
+  <h1 class="post-title">Matt Gray</h1>
+  <p class="post-meta">even full names are a very poor unique identifier</p>
 </header>
 
 <div class="home">
-  <!-- Intro paragraph -->
+  <p>Hey, you found me!</p>
+  <ul>
+    <li>Software Engineer at <a href="https://willowtreeapps.com/">WillowTree</a> as of May 28th, 2019</li> 
+    <li><a href="https://instagram.com/grays.area">Athlete</a> focusing on strength training, handbalancing, and flexiblity</li>
+    <li>Person interested in music, podcasts, games, and more</li>
+  </ul>
   <p>
-    I'm Matt Gray, a software developer (<strong>NCSU CSC '19</strong>) that focuses on <strong>iOS application development</strong>. I'm also very interested in physical training, specifically: gymnastics strength training, powerlifting, flexibility, and handbalancing. To find a common theme, I like exploring how far one can take a discipline - mental or physical. Lastly, who doesn't love a good list, easily digestible and readable for the whole family, so here's one with some personal fun facts:
-    <ul>
-        <li>Software development: started in .NET and Windows land in 2009, Swift convert as of 2016.</li>
-        <li>Music: indie rock/folk, emo, metal, post-rock, rap, etc.</li>
-        <li>Podcasts: ATP, Reconcilable Differences, Cortex, Hello Internet, Under the Radar, etc.</li>
-        <li>Miscellaneous: TV series/podcasts/books, driving, video games.</li>
-    </ul>
-    Below are a few excerpts from the most recent posts I've written, if you would like to view a filterable list of all posts on this site (content is spread across all of the interest areas I mentioned above), view my <a href="/posts.html">posts</a> page.
+    I write to understand my own thoughts and how to communicate them. It's pretty cathartic. You can view all posts I've written (link in sidebar) and filter by subject. Some of my favorite things I've written include <a href="/fitness/2018/05/20/an-approach-to-mobility.html">an approach to mobility training</a>, thoughts on the <a href="/thoughts/2018/09/24/on-attention.html">relationship between attention and tech</a>, and <a href="/books/2018/07/08/getting-things-done.html">my take-aways</a> from Getting Things Done. Apart from that, below is a feed of the 3 most recent things I've written:
   </p>
-
   <ul>
   {% for post in site.posts limit:3 %}
     <li class="post-list">
@@ -29,7 +26,7 @@ permalink: index.html
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> • 
         {{ post.date | date: "%b %-d, %Y" }} • 
         <span class="category" >{{ post.category }}</span> •
-        {{ post.content | markdownify | strip_html | truncatewords: 50 }}
+        {{ post.content | markdownify | strip_html | truncatewords: 30 }}
       </p>
     </li>
   {% endfor %}

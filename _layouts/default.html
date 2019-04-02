@@ -5,23 +5,25 @@
 		<div id="body" class="row">
 			<!-- BODY -->
 
-			<div id="content" class="col s9">
+			<div id="content" class="col s10">
 				{{ content }}
 			</div>
 
 			<!-- NAVBAR -->
 
-			<div id="navbar" class="col s3">
-				<a href="{{ site.url }}"><img class="headimg" src={{ "/img/head.png" | prepend: site.baseurl }} /></u>
-				<!-- margin left to account for ULs having a 20px margin in general -->
-				<ul style="list-style-type: none; margin-left: 0px;">
-					{% for page in site.pages %}
-						{% if page.title %}
-							<li style="list-style-type: none;"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-						{% endif %}
-					{% endfor %}
-					<li style="list-style-type: none;"><a href="{{ site.baseurl }}/assets/resume.pdf">resume</a></li>
-				</ul>
+			<div id="navbar-container" class="col s2">
+				<div id="navbar" class="pinned">
+					<a href="{{ site.url }}"><img class="headimg" src={{ "/img/head.png" | prepend: site.baseurl }} /></u>
+					<!-- margin left to account for ULs having a 20px margin in general -->
+					<ul style="list-style-type: none; margin-left: 0px;">
+						{% for page in site.pages %}
+							{% if page.title %}
+								<li style="list-style-type: none;"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+							{% endif %}
+						{% endfor %}
+						<li style="list-style-type: none;"><a href="{{ site.baseurl }}/assets/resume.pdf">resume</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<hr/>
