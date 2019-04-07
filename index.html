@@ -16,11 +16,11 @@ permalink: index.html
     <li><a href="https://instagram.com/grays.area">Athlete</a> focusing on strength training, handbalancing, and flexiblity</li>
   </ul>
   <p>
-    I also write to better understand my own thoughts and how to communicate them. It's pretty cathartic, I'd recommend it. You can view everything I've written (link in sidebar) and filter by subject. Some of my favorites are <a href="/fitness/2018/05/20/an-approach-to-mobility.html">an approach to mobility training</a> and my thoughts on the <a href="/thoughts/2018/09/24/on-attention.html">relationship between attention and tech</a>.
+    I also write to better understand my own thoughts and how to communicate them. It's pretty cathartic, I'd recommend it. You can view everything I've written (link in sidebar) and filter by subject. Some of my favorites are <a href="/fitness/2018/05/20/an-approach-to-mobility.html">an approach to mobility training</a> and my thoughts on the <a href="/thoughts/2018/09/24/on-attention.html">relationship between attention and tech</a>. Below are the three most recent posts I've written.
   </p>
-  <ul>
+  <ul class="post-list">
   {% for post in site.posts limit:3 %}
-    <li class="post-list">
+    <li>
       <p>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> • 
         {{ post.date | date: "%b %-d, %Y" }} • 
